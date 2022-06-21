@@ -1,0 +1,37 @@
+.viewButton{
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+.tableCont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 4;
+    padding: 50px;
+}
+.datatableTitle{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: aqua;
+    width: max-content;
+    padding: 10px 20px;
+}
+.cellAction{
+    gap: 10px;
+}
+.viewButton{
+    background-color: teal ;
+    color: white !important;
+}
+.DeleteButton {
+    background-color: rgba(255, 0, 0, 0.585);
+}

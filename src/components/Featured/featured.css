@@ -1,0 +1,34 @@
+.mainAContainer div{
+    width: 250px;
+    height: 150px;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    border-radius: 10px;
+}
+.AnalTitle{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.AnalSubTitle{
+    font-size: 29px !important;
+    color: #0a5fb9;
+    font-weight: bold;
+}
+.Unans{
+    color: rgb(192, 22, 22);
+}
+.answe{
+    color: teal;
+}
+
+.mainAContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}

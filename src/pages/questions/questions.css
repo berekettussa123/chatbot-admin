@@ -1,0 +1,45 @@
+.feedbackCont{
+    display: flex;
+}
+.feedback {
+  color: gray;
+  flex: 4;
+}
+.horizontal {
+  height: 2px;
+  background-color: lightgray;
+}
+.feedbackWrapper {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feedbackTitle > h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
+}
+.feedbackContainer {
+  border-radius: 20px;
+  border: 2px solid lightgray;
+  padding: 30px;
+}
+.feedbackContainerTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.feedbackLists {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 50vh;
+  overflow-y: scroll;
+}
+.feedbackListItem {
+  background-color: lightgray;
+  padding: 15px 10px;
+}

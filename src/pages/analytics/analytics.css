@@ -1,0 +1,52 @@
+.charterCont{
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+  justify-content: center;
+}
+.charter {
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000bf;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    
+  }
+  
+  .chartTitle {
+    margin-bottom: 20px;
+  }
+  .analyticsCont{
+    display: flex;
+  }
+  .date {
+    position: absolute;
+    top: 320px;
+    right: 50px;
+    z-index: 2;
+    color: black !important;
+  }
+  .headerSearchText {
+    color: gray;
+    cursor: pointer;
+    
+  }
+  .headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerBtn {
+  background-color: #0b2847b5;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.datepick{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: flex-end;
+  margin-right: 30px;
+}
